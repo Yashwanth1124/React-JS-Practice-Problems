@@ -1,0 +1,172 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  width: 500px;
+  border-radius: 25px;
+  padding: 0 20px 0 20px;
+}
+
+.name-container {
+  display: flex;
+  margin: 50px 20px 10px 20px;
+  justify-content: flex-start;
+}
+
+.first-letter-container {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.first-letter {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.full-name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px 0 20px;
+  margin: 0px;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.amount-container {
+}
+
+.amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.amount-type {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px 10px 20px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.unordered-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* Write your CSS here */
+
+  .cash-withdrawal-container {
+    width: 500px;
+    padding: 0 20px 0 20px;
+  }
+
+  .name-container {
+    margin: 50px 20px 10px 20px;
+  }
+
+  .first-letter {
+    font-size: 24px;
+  }
+
+  .full-name {
+    font-size: 24px;
+  }
+
+  .balance-container {
+    padding: 0 20px 0 20px;
+  }
+
+  .your-balance {
+    font-size: 22px;
+  }
+
+  .amount-container {
+  }
+
+  .amount {
+    font-size: 32px;
+  }
+
+  .amount-type {
+    font-size: 10px;
+    padding-right: 15px;
+  }
+
+  .withdraw-container {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .withdraw {
+    font-size: 24px;
+  }
+
+  .choose-sum {
+    font-size: 12px;
+    padding-right: 15px;
+  }
+}
